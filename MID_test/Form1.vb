@@ -2,8 +2,8 @@
     Dim WithEvents w_timer As New Timer
     Dim w_tick As Double
     Dim check As Integer = 1
-    Public Row = 2
-    Public Col = 2
+    Public Row = 3
+    Public Col = 3
     Public Bo = (Row + 1) * (Col + 1)
     Public BB = 30
     Public BOT(Row, Col) As Button
